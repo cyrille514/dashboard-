@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Ejercicios JavaScript</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @import "tailwindcss";
+      @layer base {
+         :root {
+          @apply text-sm;
+           line-height: 1.5;
+         }
+      }
+    </style>
+</head>
+<!-- Fondo con imagen adaptada (reemplaza la URL por la de tu imagen del gato si la tienes local) -->
+<body class="bg-[url('cat.jpg')] bg-cover bg-center bg-fixed min-h-screen p-4 md:p-8 font-sans antialiased">
+
+  <div class="max-w-6xl mx-auto text-center">
+    
+    <!-- Barra superior morada (Responsiva: se encoge en móviles) -->
+    <div class="w-full max-w-2xl mx-auto bg-[#c3a6ff] text-black text-xs sm:text-sm md:text-base font-bold py-2 px-4 rounded-full mb-6 md:mb-10 shadow-md">
+      Dashboard / Menú de Ejercicios javascript
+    </div>
+    
+    <!-- Títulos Principales -->
+    <h1 class="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-wide drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] mb-2 uppercase">
+      Ejercicios JavaScript
+    </h1>
+    <h2 class="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-semibold drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] mb-8 md:mb-12">
+      Cyrille Nyami Tchamba
+    </h2>
+
+    <!-- Rejilla de tarjetas (Responsive) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start justify-center max-w-6xl mx-auto">
+            
+            <section class="bg-white border border-gray-300 rounded-3xl p-4 shadow-sm">
+                <div class="bg-green-500 text-shadow-black font-black text-center py-2.5 px-4 font-bold text-lg rounded mb-4">
+                    Ejercicios Iniciales
+                </div>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-start bg-gray-200 "><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/variables-y-tipos-de-dadtos/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Variables y tipos de datos</a></li>
+                    <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/test-divertido/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Test divertido</a></li>
+                    <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/gallitas/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Galletas de la fortuna</a></li>
+                    <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/dado-1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Practicar número random</a></li>
+                    <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/practicar-array/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Practicar arrays (carrusel sencillo)</a></li>
+                    <details> 
+                     <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-32 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3">Entrada y salida de datos</a> </summary>   
+                       <ul> 
+                         <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/ejercicio1-aritmetica/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio.1</a></li>
+                         <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/ejercicio2-aritmetica/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio.2</a></li>
+                         <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/ejercicio3-aritmetica/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio.3</a></li>
+                         <li class="flex items-start bg-gray-200"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/ejercicio4-aritmetica/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio.4</a></li>
+                      </ul>
+                    </details>
+                    
+                    
+                </ul>
+                
+            </section>
+            
+
+            <section class="bg-white border border-gray-300 rounded-3xl p-4 shadow-sm">
+                <div class="bg-green-500 text-shadow-black text-center py-2.5 px-4 font-black text-lg rounded mb-4">
+                    Condicionales, arrays y objetos
+                </div>
+
+                <div class="space-y-2 text-sm">
+                  <details>  
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Ejercicios condicionales </summary>
+                    <ul class="mt-2 pl-4 space-y-2 font-normal text-gray-800">
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones-4.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.1 determinar numero mayor</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.2 nivel de experiencia</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones-4.3/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.3 palabras bonitas</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.4/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.4 convertir numeros a letras</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.5/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.5 ejecutar operacion seleccionada</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.6-/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.6 Restaurante</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.7/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.7 Multiplos</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4.8/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio4.8 Juguemos Piedra, papel o tijera</a></li>
+                       </ul>
+                   </details>
+                    
+                    <details>  
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3">Ejercicios arrays </summary>
+                       <ul class="mt-2 pl-4 space-y-2 font-normal text-gray-800">
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/array-5.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio5.1 Mes de número a letra</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/array-5.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio5.2 Concurso (métodos de array)</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/array5.3/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio5.3 Lista de Compras</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/array-5.4/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio5.4 Tareas</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/array5.5/" class="text-blue-700 underline hover:text-blue-900 transition-colors">ejercicio5.5 Sistema Solar</a></li>
+                       </ul>
+                    </details>
+
+                    <details> 
+                      <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Repaso condicionales y objetos</summary>
+                        <ul class="mt-2 pl-4 space-y-2 font-normal text-gray-800">
+                            <li class="flex items-start"><span class="text-gray-600 mr-1.5">•</span><a href="https://cyrille514.github.io/Adivinar-numero/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Frío Tibio Caliente... Adivinar número</a></li>
+                            <li class="flex items-start"><span class="text-gray-600 mr-1.5">•</span><a href="https://cyrille514.github.io/tamagotchi/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Tamagotchi</a></li>
+                        </ul>
+                    </details>
+
+                    <details> 
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Ejercicios con array de objetos </summary>
+                    <ul class="mt-2 pl-4 space-y-2 font-normal text-gray-800">
+                            <li class="flex items-start"><span class="text-gray-600 mr-1.5">•</span><a href="https://cyrille514.github.io/array6.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Mes de número a letra</a></li>
+                            <li class="flex items-start"><span class="text-gray-600 mr-1.5">•</span><a href="https://cyrille514.github.io/array-6.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Lista de Compras</a></li>
+                            <li class="flex items-start"><span class="text-gray-600 mr-1.5">•</span><a href="https://cyrille514.github.io/array-6.3/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Tareas</a></li>
+                    </ul>
+                   </details>
+                   
+                </div>
+            </section>
+
+            <section class="bg-white border border-gray-300 rounded-3xl p-4 shadow-sm">
+                <div class="bg-green-500 text-shadow-black text-center py-2.5 px-4 font-black text-lg rounded mb-4">
+                    Bucles, funciones y clases
+                </div>
+
+             <div class="space-y-2 text-sm">
+                 <details> 
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Bucles | Métodos de String</summary> 
+                       <ul class="space-y-3 text-sm">
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.1 suma valores entre dos numeros</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.2 numeros pares del 100 al 0</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.3/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.3 Factorial de un numero</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.4-while/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.4 verificar si un numero entre 2 y 100 es primo</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.5/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.5 calcular la secuencia de Fibonacci</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.6/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.6 muestra un string al reves</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.7/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.7 indica si un numero es capicua</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.8/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.8 indica si la frase es polindromo</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.9/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.9 suma todos los pares y los impares de un array </a></li>
+                       </ul>
+                  </details>
+                  
+
+                  <details> 
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Ejercicios funciones</summary> 
+                       <ul class="space-y-3 text-sm">
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.1 suma valores entre dos numeros</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.2 numeros pares del 100 al 0</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.3/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.3 Factorial de un numero</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.4-while/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.4 verificar si un numero entre 2 y 100 es primo</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.5/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.5 calcular la secuencia de Fibonacci</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.6/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.6 muestra un string al reves</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.7/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.7 indica si un numero es capicua</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.8/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.8 indica si la frase es polindromo</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/bucles7.9/" class="text-blue-700 underline hover:text-blue-900 transition-colors">bucles7.9 suma todos los pares y los impares de un array </a></li>
+                         
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/funciones8.1/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio 8.1. Encontrar número primo </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/funciones-8.2/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio 8.2. Verificar número del DNI </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones-1-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones1-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones2-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones2-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones3-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones3-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones4-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones5-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones5-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones6-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones6-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones7-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones7-con-flecha </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones8-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones8-con-flecha </a></li>
+                         
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones1-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones1-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones2-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones2-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones3-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones3-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones4-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones4-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones5-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones5-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones6-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones6-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones7-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones7-con-escuchadores </a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/condiciones8-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">condiciones8-con-escuchadores </a></li>  
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/tamagotchi-con-flecha/" class="text-blue-700 underline hover:text-blue-900 transition-colors">tamagotchi-con-fecha </a></li>  
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/tamagotchi-con-escuchadores/" class="text-blue-700 underline hover:text-blue-900 transition-colors">tamagotchi-con-escuchadores </a></li>  
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/horoscopo-chino/" class="text-blue-700 underline hover:text-blue-900 transition-colors">Ejercicio 8.5. Horóscopo chino </a></li>
+                       </ul>
+                  </details>
+                  
+
+                  <details> 
+                    <summary class="bg-gray-200 text-[#002266] font-bold py-2 px-3 pl-7 rounded relative before:content before:absolute before:left-3 before:text-[10px] before:text-blue-600 before:top-3"> Clases</summary> 
+                       <ul class="space-y-3 text-sm">
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/carrusel-proyecto-con-clase/" class="text-blue-700 underline hover:text-blue-900 transition-colors">carrusel con clases</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/carrusel/" class="text-blue-700 underline hover:text-blue-900 transition-colors">carrusel examenes</a></li>
+                         <li class="flex items-start"><span class="text-blue-600 font-bold mr-1.5">•</span><a href="https://cyrille514.github.io/tamagotchi-projecto/" class="text-blue-700 underline hover:text-blue-900 transition-colors">tamagotchi-examenes</a></li>
+                         
+                       </ul>
+                  </details>
+
+                  </div>
+
+            </section>
+
+        </div>
+    </main>
+
+</body>
+</html>
